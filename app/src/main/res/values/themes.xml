@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TestePim2" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">#3f9140</item>
+        <item name="colorPrimaryVariant">#3f9140</item>
+    </style>
+
+    <style name="Theme.TestePim2" parent="Base.Theme.TestePim2" />
+
+    <style name="Theme.TestePim2.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.TestePim2.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.TestePim2.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

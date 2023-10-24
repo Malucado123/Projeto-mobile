@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_pessoal"
+            android:title="Informações Pessoais"
+            android:icon="@drawable/pessoa_icone" />
+        <item
+            android:id="@+id/nav_residencial"
+            android:title="Endereço Residencial"
+            android:icon="@drawable/pino_icone"/>
+        <item
+            android:id="@+id/nav_bancario"
+            android:title="Dados bancários"
+            android:icon="@drawable/pagamento_icone"/>
+        <item
+            android:id="@+id/nav_trabalhista"
+            android:title="Informaçoes Trabalhista"
+            android:icon="@drawable/pasta_icone"/>
+        <item
+            android:id="@+id/nav_pagamento"
+            android:title="Folha de pagamento"
+            android:icon="@drawable/pagamento_icone"/>
+        <item
+            android:id="@+id/nav_ponto"
+            android:title="Folha de ponto"
+            android:icon="@drawable/pino_icone"/>
+        <item
+            android:id="@+id/nav_historico"
+            android:title="Historico de Funcionário"
+            android:icon="@drawable/pessoa_icone"/>
+
+    </group>
+</menu>

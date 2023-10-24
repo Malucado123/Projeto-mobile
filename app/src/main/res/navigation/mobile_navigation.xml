@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_pessoal">
+
+    <fragment
+        android:id="@+id/nav_pessoal"
+        android:name="com.example.testepim2.ui.pessoal.PessoalFragment"
+        android:label="Informações Pessoais"
+        tools:layout="@layout/fragment_pessoal" />
+
+    <fragment
+        android:id="@+id/nav_residencial"
+        android:name="com.example.testepim2.ui.residencial.ResidencialFragment"
+        android:label="Endereço Residencial"
+        tools:layout="@layout/fragment_residencial" />
+
+    <fragment
+        android:id="@+id/nav_trabalhista"
+        android:name="com.example.testepim2.ui.trabalhista.TrabalhistaFragment"
+        android:label="Informações Trabalhista"
+        tools:layout="@layout/fragment_residencial" />
+
+    <fragment
+        android:id="@+id/nav_bancario"
+        android:name="com.example.testepim2.ui.bancario.DadosBancariosFragment"
+        android:label="Dados Bancários"
+        tools:layout="@layout/fragment_dados_bancarios"/>
+
+    <fragment
+        android:id="@+id/nav_pagamento"
+        android:name="com.example.testepim2.ui.pagamento.PagamentoFragment"
+        android:label="Folha de Pagamento"
+        tools:layout="@layout/fragment_pagamento"/>
+
+    <fragment
+        android:id="@+id/nav_ponto"
+        android:name="com.example.testepim2.ui.ponto.PontoFragment"
+        android:label="Folha de Ponto"
+        tools:layout="@layout/fragment_pagamento"/>
+
+    <fragment
+        android:id="@+id/nav_historico"
+        android:name="com.example.testepim2.ui.historico.HistoricoFragment"
+        android:label="Historico de Funcionário"
+        tools:layout="@layout/fragment_historico"/>
+
+</navigation>
